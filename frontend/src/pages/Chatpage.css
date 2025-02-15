@@ -1,0 +1,16 @@
+.chat-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust height excluding navbar */
+}
+
+.chatlist {
+  width: 30%;
+  border-right: 1px solid #ccc; /* Separator */
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chatbox {
+  width: 70%;
+  padding: 10px;
+}
